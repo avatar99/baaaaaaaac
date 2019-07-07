@@ -45,7 +45,7 @@ client.on('message', message => {
 				.addField(`**${prefix}bcf | رسالة جماعية للوفلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}bcrole | رسالة جماعية لرتبة معينه**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
                 .addField('=-=- [ شكرا على استعمال البوت ] -=-= ' ,'╚[❖═════════════════════❖]╝')
-                .setFooter(`By ixVolBiNa`)
+                .setFooter(`By Avatar`)
                 .setTimestamp()
 			
                 message.author.sendEmbed(embed)
@@ -137,7 +137,7 @@ client.on('message' , message => {//bcrole
     }
 });
 
-const developers = ["587783907563536404","id"]
+const developers = ["557181389100023839","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
